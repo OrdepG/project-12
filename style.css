@@ -1,0 +1,24 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+ body{
+    height: 100vh;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+ }
+
+ .heading{
+    font-size: 10rem;
+    font-weight: 900;
+    background: url(https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=pexels-pixabay-531880.jpg&fm=jpg);
+    background-size: cover;
+    background-clip: text;
+    -webkit-backdrop-clip: text;
+    color: transparent; 
+}
